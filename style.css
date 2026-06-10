@@ -1,0 +1,205 @@
+
+    html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color:#0d1117;
+    color: slategrey;
+    margin: 20px;
+    font-family: Arial, sans-serif;
+    
+}
+.logo{
+    font-size: 24px;
+    color: rgb(61, 221, 69);
+    font-weight: bold;
+}
+
+.navibar{
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+.navibar a{
+    color: rgb(241, 243, 245);
+    text-decoration: none;
+    font-size: 18px;
+}
+hr  {
+    border: none;
+    border-top: 1px solid rgb(72, 77, 72);
+    margin: 20px 0;
+}
+.name{ 
+    font-size: 36px;
+    color: whitesmoke;
+    display: inline;
+
+}
+.job{
+    color: rgb(61, 221, 69);
+}
+h2{
+    color: rgb(61, 221, 69);
+    margin: 8px;
+}
+
+.hero{
+    border: none;
+    width: 50%;
+    padding: 20px;
+    margin-top:100px;
+
+}
+p{
+    font-size: 18px;
+    color: rgb(241, 243, 245);
+    margin:0;
+}
+a{
+    color: rgb(223, 238, 224);
+    text-decoration: none;
+}
+button{
+    background-color: rgb(61, 221, 69);
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    margin-top: 20px;
+    display: inline-block;
+    width: 150px;
+border-radius: 10px;
+}
+button:hover{
+    transform: translateY(-5px) scale(1 );
+    transition: transform 0.5s;
+box-shadow: 1px 2px 4px rgba(4, 238, 16, 0.973);
+}
+.hero .profile-image {
+    position: absolute;
+    top: 200px;
+    right: 200px;
+}
+h1{
+    color: rgb(236, 238, 237);
+    text-align: center;
+    font-size: 3em;
+}
+span{
+    color: rgb(61, 221, 69);
+}
+
+.card1:hover{
+    box-shadow: 1px 2px 4px rgba(4, 238, 16, 0.973);
+    transform: translateY(-5px) scale(1);
+    transition: transform 0.5s;
+}
+.card2:hover{
+    box-shadow: 1px 2px 4px rgba(4, 238, 16, 0.973);
+    transform: translateY(-5px) scale(1);
+    transition: transform 0.5s;
+}
+.card1{
+    border: 1px solid rgb(54, 56, 58);
+    padding: 20px;
+    font-size: 18px;
+    cursor: pointer;
+    display: inline-block;
+    width: 400px;
+    height: 200px;
+    border-radius: 10px;
+    background-color: rgb(13, 13, 14);
+    margin: 20px;
+    justify-content: center;
+}
+.card2{
+     border: 1px solid rgb(55, 56, 58);
+    padding: 20px;
+    font-size: 18px;
+    cursor: pointer;
+    display: inline-block;
+    width: 400px;
+    height: 100px;
+    margin-bottom: 100px;
+    border-radius: 10px;
+    background-color: rgb(13, 13, 14);
+    margin-left: 50px;
+    position: absolute;
+    top: 90%;
+
+}
+.skills{
+    display: inline-block;
+    padding: 20px;
+    cursor: pointer;
+    width: 100px;
+    height: 100px;
+    border: 1px solid rgb(54, 51, 51);
+    border-radius: 10px;
+    background-color: rgb(14, 15, 15);
+    margin: 20px;
+    color: aliceblue;
+}
+.skills:hover{
+    box-shadow: 1px 2px 4px rgba(4, 238, 16, 0.973);
+    transform: translateY(-5px) scale(1);
+    transition: transform 0.5s;
+}
+.portfolio{
+    border: 1px solid rgb(56, 54, 54);
+    display:flex;
+    justify-content: center;
+    flex-direction:column;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    padding: 20px;
+    border-radius: 10px;
+    position: relative;
+    left: 45%;
+    background-color: rgb(14, 15, 15);
+    color: aliceblue;
+}
+portfolio:hover{
+    box-shadow: 5px 3px 5px rgba(4, 238, 16, 0.973);
+    transform: translateY(-5px) scale(1);
+    transition: transform 0.5s;
+}
+.form{
+    display:inline-block;
+    border: none;
+    border-radius: 10px;
+    width: 400px;
+    height: auto;
+    margin: 20px;
+}
+.form input, .form textarea{
+    width: 50%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid rgb(54, 51, 51);
+    border-radius: 5px;
+    background-color: rgb(14, 15, 15);
+    color: aliceblue;
+}
+label{
+    color: aliceblue;
+    font-size: 18px;
+}
+.icon{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-color: rgb(14, 15, 15);
+    border-radius: 50%;
+    margin: 10px;
+}
+.copyright{
+    color: rgb(241, 243, 245);
+    text-align: center;
+    margin-top: 20px;
+}
